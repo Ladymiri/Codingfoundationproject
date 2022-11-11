@@ -1,0 +1,108 @@
+.navigation-wrapper {
+    height: 95px;
+    background-color: black;
+    color: #cbcbcb;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    width: 100%
+}
+
+.navigation-wrapper > .left-column > .logo img {
+    width: 150px;
+    padding: 20px;
+}
+
+.navigation-wrapper > .center-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.navigation-wrapper > .center-column > .title h1 {
+    font-size: 0.8em;
+    color: #e5d57c;
+    margin-top: 10px;
+    padding: 5px 1px;
+}
+
+.navigation-wrapper > .center-column > .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: -5px;
+}
+    
+
+.navigation-wrapper > .center-column >.links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 1px;
+    font-weight: 900;
+    margin-right: 10px;
+    transition: 0.5s; 
+}
+
+.navigation-wrapper > .center-column >.links a:hover {
+    color:#e5d57c;
+}
+
+.navigation-wrapper > .spark-column {
+    display: flex;
+    align-items:flex-end;
+    justify-content: left;
+    padding: 20px;
+    margin-bottom: 9px;
+}
+
+.navigation-wrapper > .spark-column a{
+    text-decoration: none;
+    color:#909e9f;
+    transition: 0.5s;
+}
+.navigation-wrapper > .spark-column a:hover {
+    color:#e5d57c;
+}
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.navigation-wrapper > .right-column > .interact-link {
+    background-color: #40454b;
+    color: white;
+    border-radius: 5px;
+    height: 50%;
+    width: 23%;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .interact-link:hover {
+    letter-spacing: 2px;;
+}
+
+.navigation-wrapper > .right-column >.interact-link i{
+    color: #4fc883;
+    margin-left: 7px;
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.navigation-wrapper > .right-column > .search i {
+    color: #40454b;
+    font-size: 2em;
+}
+.navigation-wrapper > .right-column > .search i:hover {
+    color:#4fc883;
+}
